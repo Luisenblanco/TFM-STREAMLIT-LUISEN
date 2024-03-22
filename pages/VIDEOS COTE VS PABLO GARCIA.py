@@ -22,7 +22,7 @@ df = pd.read_csv(ruta_excel, encoding='latin', sep=";")
 print(df.head())
 
 
-# In[4]:
+
 
 
 # Renombrar la columna 4510 a "Jugador"
