@@ -15,7 +15,7 @@ datos = [
     [0.27, 0.0, 18.68, 5.18, 0.75, 0.0, 0.0, 5.28, 0.21, 8.17]
 ]
 
-# Convertir los datos a un DataFrame de pandas
+
 df = pd.DataFrame(datos, columns=['Centros', 'Asistencias', 'Duelos', 'Pases en último tercio',
                                    'Acciones de ataque', 'Jugadas claves', 'Desmarques', 'Interceptaciones',
                                    'Pases en profundidad', 'Pases progresivos'], index=jugadores)
