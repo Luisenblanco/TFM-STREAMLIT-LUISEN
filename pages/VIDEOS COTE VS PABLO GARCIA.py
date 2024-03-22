@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 
 
-# In[2]:
+
 
 
 ruta_excel ="/mount/src/tfm-streamlit-sheare/Data/Datos_30_LIGAS.csv"
