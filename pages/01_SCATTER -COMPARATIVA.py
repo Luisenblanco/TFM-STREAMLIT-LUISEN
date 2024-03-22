@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 
 
 
-# Especifica la ruta del archivo Excel
+
 
 ruta_excel ="/mount/src/tfm-streamlit-sheare/Data/Datos_30_LIGAS.csv"
 
