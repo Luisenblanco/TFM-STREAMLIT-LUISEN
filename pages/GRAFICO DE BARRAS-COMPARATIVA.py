@@ -68,7 +68,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Datos de los jugadores
+
 jugadores = ['Cote', 'Pablo Pérez', 'Rafael Obrador', 'D. van der Kust', 'S. Laquidaín']
 datos = [
     [4.06, 0.18, 14.79, 2.92, 2.6, 0.27, 0.14, 4.89, 0.59, 6.67],
