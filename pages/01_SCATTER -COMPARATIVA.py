@@ -31,7 +31,7 @@ df.head()
 columnas_a_eliminar = ['4510', 'Equipo', 'Equipo durante el periodo seleccionado', 'Posicion especifica', 'Edad', 'Valor de mercado(Transfermarkt)', 'Vencimiento de contrato']
 df = df.drop(columns=columnas_a_eliminar, errors='ignore')
 
-# Obtener todas las columnas del DataFrame después de eliminar las no deseadas
+# Obtener todas las columnas del DataFrame después de eliminar las no 
 cols_disponibles = df.columns.tolist()
 
 
