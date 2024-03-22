@@ -14,7 +14,7 @@ with st.sidebar.expander("📊 METRICAS SELECCIONADAS"):
     # Multiselect para que el usuario seleccione las métricas
     metricas_seleccionadas = st.multiselect("SELECCIONE LAS MÉTRICAS", df.columns)
    
-    # Mostrar las métricas seleccionadas
+   
     st.write("Métricas seleccionadas:", metricas_seleccionadas)
    
 with st.sidebar.expander("🥾⚽ LOS 6 JUGADORES A COMPARAR"):
