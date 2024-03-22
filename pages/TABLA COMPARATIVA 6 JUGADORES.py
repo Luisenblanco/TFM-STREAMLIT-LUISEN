@@ -3,7 +3,7 @@ import streamlit as st
 
 ruta_excel ="/mount/src/tfm-streamlit-sheare/Data/Datos_30_LIGAS.csv"
 
-# Carga el archivo Excel y muestra las primeras filas
+
 df = pd.read_csv(ruta_excel, encoding='latin', sep=";")
 
 # Renombrar la columna 4510 a "Jugador"
