@@ -63,6 +63,8 @@ with st.expander("VIDEOS"):
 
 # Insertar imagen en la parte derecha
 st.image("/mount/src/tfm-streamlit-luisen/Image/sports.png", width=400)
+st.title("/mount/src/tfm-streamlit-luisen/Image/Obrador.png" | "MI CONCLUSION FINAL - RAFAEL OBRADOR")
+    st.video("https://youtu.be/q3U55bGTDmI")
 
 
 
