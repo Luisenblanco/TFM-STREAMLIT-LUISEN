@@ -69,10 +69,12 @@ with st.expander("VIDEOS"):
 st.sidebar.image("/mount/src/tfm-streamlit-luisen/Image/sports.png", width=400)
 
 # Título principal con texto en verde fosforito
-st.title("MI CONCLUSION FINAL - " + st.markdown("<span style='color:lime'>RAFAEL OBRADOR</span>", unsafe_allow_html=True))
+st.markdown("<h1 style='color:lime;'>MI CONCLUSION FINAL - RAFAEL OBRADOR</h1>", unsafe_allow_html=True)
 
 # Video
 st.video("https://youtu.be/q3U55bGTDmI")
+
+
 
 
 
