@@ -70,10 +70,10 @@ st.sidebar.image("/mount/src/tfm-streamlit-luisen/Image/sports.png", width=400)
 st.markdown("<h1 style='color:lime;'>MI CONCLUSION FINAL - RAFAEL OBRADOR</h1>", unsafe_allow_html=True)
 
 # Añadir jugador del Real Madrid "B"
-st.markdown("<h2>Jugador del Real Madrid 'B'</h2>")
-st.markdown("<h3>Nombre del jugador</h3>")
-st.markdown("<p>Información del jugador...</p>")
-
+st.markdown("JUGADOR DEL REAL MADRID CASTILLA 'B'")
+st.markdown("EDAD 19 AÑOS")
+st.markdown("VALOR DE MERCADO 300000€")
+st.markdown("UN GOLPEO ESQUISITO DE BALON Y MUCHA LLEGADA")
 # Video
 st.video("https://youtu.be/q3U55bGTDmI")
 
