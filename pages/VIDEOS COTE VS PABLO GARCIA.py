@@ -63,11 +63,6 @@ with st.expander("VIDEOS"):
 
 
 
-
-
-
-
-
 # Insertar imagen en el panel lateral derecho
 st.sidebar.image("/mount/src/tfm-streamlit-luisen/Image/sports.png", width=400)
 
@@ -76,6 +71,13 @@ st.title("MI CONCLUSION FINAL - " + st.markdown("<span style='color:lime;'>RAFAE
 
 # Video
 st.video("https://youtu.be/q3U55bGTDmI")
+
+
+
+
+
+
+
 
 
 
