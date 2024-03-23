@@ -61,10 +61,16 @@ with st.expander("VIDEOS"):
     st.video("https://youtu.be/o0R_9RjuWsk?si=UD9pBSfWZxwR0CPS")
     st.video("https://youtu.be/9L8ivBS1_jo?si=nZXc4ScDR9NpaNux")
 
-# Insertar imagen en la parte derecha
-st.image("/mount/src/tfm-streamlit-luisen/Image/sports.png", width=400)
-st.title("/mount/src/tfm-streamlit-luisen/Image/Obrador.png" | "MI CONCLUSION FINAL - RAFAEL OBRADOR")
- st.video("https://youtu.be/q3U55bGTDmI")
+
+
+# Insertar imagen en el panel lateral derecho
+st.sidebar.image("/mount/src/tfm-streamlit-luisen/Image/sports.png", width=400)
+
+# Título principal
+st.title("MI CONCLUSION FINAL - RAFAEL OBRADOR")
+
+# Video
+st.video("https://youtu.be/q3U55bGTDmI")
 
 
 
