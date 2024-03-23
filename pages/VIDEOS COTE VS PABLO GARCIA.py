@@ -51,14 +51,15 @@ with st.expander("VIDEOS"):
     # Insertar los videos
     #video_file_pablo = open("C:/Users/user/Desktop/TFM-STREAMLIT/Video/Pablo Garcia.mp4", "rb")
     #video_bytes_pablo = video_file_pablo.read()
+    
     st.video('https://youtu.be/-FRCEzFLUqY')
 
     #video_file_cote = open("C:/Users/user/Desktop/TFM-STREAMLIT/Video/Cote.mp4", "rb")
     #video_bytes_cote = video_file_cote.read()
     st.video("https://youtu.be/3kgS2uS3KZk")
-  
-
-  
+    st.video("https://youtu.be/kaWKwK0gsFo")
+    st.video("https://youtu.be/o0R_9RjuWsk?si=UD9pBSfWZxwR0CPS")
+    st.video("https://youtu.be/9L8ivBS1_jo?si=nZXc4ScDR9NpaNux")
 
 # Insertar imagen en la parte derecha
 st.image("/mount/src/tfm-streamlit-luisen/Image/sports.png", width=400)
