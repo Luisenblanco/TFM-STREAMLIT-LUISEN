@@ -86,7 +86,7 @@ df = df.drop(columns=columnas_a_eliminar, errors='ignore')
 
 # Obtener todas las columnas del DataFrame después de eliminar las no 
 cols_disponibles = df.columns.tolist()
-
+jugadores_seleccionados = ['Cote', 'Pablo Pérez', 'Rafael Obrador', 'D. van der Kust', 'S. Laquidaín']
 
 # Sidebar.expander para seleccionar jugadores
 with st.sidebar.expander("🥾⚽ Seleccionar Jugadores"):
