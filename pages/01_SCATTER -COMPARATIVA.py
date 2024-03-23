@@ -61,7 +61,7 @@ with st.sidebar.expander("🥾⚽ LOS 6 JUGADORES A COMPARAR"):
     df_filtrado = df[df['Jugador'].isin(nombres_seleccionados)]
 st.write(df_filtrado)
 
-st.sidebar.image("/mount/src/tfm-streamlit-sheare/Image/sports.png", width=400)
+st.sidebar.image("/mount/src/tfm-streamlit-luisen/Image/sports.png", width=400)
 
 if len(metricas_seleccionadas) == 2:
     fig, ax = plt.subplots(figsize=(7, 5))
@@ -90,10 +90,10 @@ with info:
 
     # Imagen del primer recurso (Transfermarkt)
     with col1:
-        st.image("/mount/src/tfm-streamlit-sheare/Image/sports.png", width=250)
+        st.image("/mount/src/tfm-streamlit-luisen/Image/sports.png", width=250)
 
     # Imagen del segundo recurso (Excel)
     with col2:
-        st.image("/mount/src/tfm-streamlit-sheare/Image/streamlit_logo.png", width=350)
+        st.image("/mount/src/tfm-streamlit-luisen/Image/streamlit_logo.png", width=350)
 
 
