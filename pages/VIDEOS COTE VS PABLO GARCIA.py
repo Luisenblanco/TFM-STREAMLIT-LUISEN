@@ -76,7 +76,8 @@ st.markdown("VALOR DE MERCADO 300000€")
 st.markdown("UN GOLPEO ESQUISITO DE BALON Y MUCHA LLEGADA")
 # Video
 st.video("https://youtu.be/q3U55bGTDmI")
-
+st.video("https://youtu.be/a-k2TIeO9Vk?si=p73lNLZxgtT6xDvp")
+st.video("https://youtu.be/fs6FfqiWtCg?si=eMzdY7lmnJBtGkiw")
 
 
 
