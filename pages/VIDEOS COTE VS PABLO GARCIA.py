@@ -63,15 +63,16 @@ with st.expander("VIDEOS"):
 
 
 
+import streamlit as st
 
+# Insertar imagen en el panel lateral derecho
 st.sidebar.image("/mount/src/tfm-streamlit-luisen/Image/sports.png", width=400)
-col1, col2 = st.beta_columns(2)
-with col1:
-    st.video("https://youtu.be/q3U55bGTDmI")
 
-with col2:
-    st.image("/mount/src/tfm-streamlit-luisen/Image/Obrador.png", width=400)
-
-
+# Título principal
 st.title("MI CONCLUSION FINAL - RAFAEL OBRADOR")
+
+# Video
+st.video("https://youtu.be/q3U55bGTDmI")
+
+
 
