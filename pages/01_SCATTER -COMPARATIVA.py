@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 
 
 
-ruta_excel ="/mount/src/tfm-streamlit-sheare/Data/Datos_30_LIGAS.csv"
+ruta_excel ="/mount/src/tfm-streamlit-luisen/Data/Datos_30_LIGAS.csv"
 
 
 # Carga el archivo Excel y muestra las primeras fila
