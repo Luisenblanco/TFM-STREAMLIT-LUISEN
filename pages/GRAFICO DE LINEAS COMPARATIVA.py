@@ -2,7 +2,7 @@
 import pandas as pd
 import streamlit as st
 
-ruta_excel ="/mount/src/tfm-streamlit-sheare/Data/Datos_30_LIGAS.csv"
+ruta_excel ="/mount/src/tfm-streamlit-luisen/Data/Datos_30_LIGAS.csv"
 
 # Carga el archivo Excel y muestra las primeras filas
 df = pd.read_csv(ruta_excel, encoding='latin', sep=";")
@@ -27,10 +27,10 @@ with st.sidebar.expander("🥾⚽ LOS 6 JUGADORES A COMPARAR"):
 df_filtrado = df[df['Jugador'].isin(nombres_seleccionados)][metricas_seleccionadas]
 
 st.title("📈GRAFICO DE LINEAS COMPARATIVA :⚽👟")
-st.image("/mount/src/tfm-streamlit-sheare/Image/streamlit_logo.png", width=350)
+st.image("/mount/src/tfm-streamlit-luisen/Image/streamlit_logo.png", width=350)
 
 # Mostrar el DataFrame en Streamlit
 st.line_chart(df_filtrado)
 
-st.image("/mount/src/tfm-streamlit-sheare/Image/sports.png", width=400)
-st.image("/mount/src/tfm-streamlit-sheare/Image/FOTO MASTER.png", width=400)
+st.image("/mount/src/tfm-streamlit-luisen/Image/sports.png", width=400)
+st.image("/mount/src/tfm-streamlit-luisen/Image/FOTO MASTER.png", width=400)
