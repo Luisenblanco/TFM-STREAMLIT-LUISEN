@@ -63,15 +63,22 @@ with st.expander("VIDEOS"):
 
 
 
-
 # Insertar imagen en el panel lateral derecho
 st.sidebar.image("/mount/src/tfm-streamlit-luisen/Image/sports.png", width=400)
 
 # Título principal con texto en verde fosforito
 st.markdown("<h1 style='color:lime;'>MI CONCLUSION FINAL - RAFAEL OBRADOR</h1>", unsafe_allow_html=True)
 
+# Añadir jugador del Real Madrid "B"
+st.markdown("<h2>Jugador del Real Madrid 'B'</h2>")
+st.markdown("<h3>Nombre del jugador</h3>")
+st.markdown("<p>Información del jugador...</p>")
+
 # Video
 st.video("https://youtu.be/q3U55bGTDmI")
+
+
+
 
 
 
