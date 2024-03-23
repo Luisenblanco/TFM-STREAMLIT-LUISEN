@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 
 
 
-ruta_excel ="/mount/src/tfm-streamlit-sheare/Data/Datos_30_LIGAS.csv"
+ruta_excel ="/mount/src/tfm-streamlit-luisen/Data/Datos_30_LIGAS.csv"
 
 
 # Carga el archivo Excel y muestra las primeras fila
@@ -33,7 +33,7 @@ df = df.rename(columns={"4510": "Jugador"})
 import streamlit as st
 
 # Crear expander en la barra lateral
-with st.sidebar.expander("VIDEOS COTE Y PABLO GARCIA"):
+with st.sidebar.expander("VIDEOS COTE - PABLO GARCIA- PABLO PEREZ - S. LAQUIDAIN - VAN DER KUST - RAFAEL OBRADOR:⚽"):
     nombres_deseados = ['Cote', 'Pablo García']
 
     # Multiselect para que el usuario seleccione nombres
@@ -44,23 +44,24 @@ with st.sidebar.expander("VIDEOS COTE Y PABLO GARCIA"):
     st.write(df_filtrado)
    
 
-st.title("📹VIDEOS COTE 🆚 PABLO GARCIA :⚽🥅")
-st.image("/mount/src/tfm-streamlit-sheare/Image/streamlit_logo.png", width=350)
+st.title("📹VIDEOS COTE 🆚 PABLO GARCIA 🆚 PABLO PEREZ 🆚 S. LAQUIDAIN 🆚 VAN DER KUST 🆚 RAFAEL OBRADOR:⚽🥅")
+st.image("/mount/src/tfm-streamlit-luisen/Image/streamlit_logo.png", width=350)
 # Crear expander para los videos a la derecha
 with st.expander("VIDEOS"):
     # Insertar los videos
     #video_file_pablo = open("C:/Users/user/Desktop/TFM-STREAMLIT/Video/Pablo Garcia.mp4", "rb")
     #video_bytes_pablo = video_file_pablo.read()
-    st.video('https://youtu.be/lkI9GjKNrio?si=iVjnzZ9eWA3yUvpI')
+    st.video('https://youtu.be/-FRCEzFLUqY')
 
     #video_file_cote = open("C:/Users/user/Desktop/TFM-STREAMLIT/Video/Cote.mp4", "rb")
     #video_bytes_cote = video_file_cote.read()
-    st.video('https://youtu.be/lkI9GjKNrio?si=iVjnzZ9eWA3yUvpI')
+    st.video("https://youtu.be/3kgS2uS3KZk")
+  
 
   
 
 # Insertar imagen en la parte derecha
-st.image("/mount/src/tfm-streamlit-sheare/Image/sports.png", width=400)
+st.image("/mount/src/tfm-streamlit-luisen/Image/sports.png", width=400)
 
 
 
