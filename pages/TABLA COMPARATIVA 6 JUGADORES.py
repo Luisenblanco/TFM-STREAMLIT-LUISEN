@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 
-ruta_excel ="/mount/src/tfm-streamlit-sheare/Data/Datos_30_LIGAS.csv"
+ruta_excel ="/mount/src/tfm-streamlit-luisen/Data/Datos_30_LIGAS.csv"
 
 
 df = pd.read_csv(ruta_excel, encoding='latin', sep=";")
@@ -26,7 +26,7 @@ with st.sidebar.expander("🥾⚽ LOS 6 JUGADORES A COMPARAR"):
 df_filtrado = df[df['Jugador'].isin(nombres_seleccionados)][metricas_seleccionadas]
 
 st.title("💻TABLA COMPARATIVA :⚽🥅")
-st.image("/mount/src/tfm-streamlit-sheare/Image/streamlit_logo.png", width=350)
+st.image("/mount/src/tfm-streamlit-luisen/Image/streamlit_logo.png", width=350)
 
 # Convertir DataFrame a HTML
 df_html = df_filtrado.to_html(classes=['data'], header="true", index=False)
@@ -66,4 +66,4 @@ estilos_css = """
 # Mostrar la tabla HTML con los estilos CSS
 st.markdown(estilos_css + df_html, unsafe_allow_html=True)
 
-st.image("/mount/src/tfm-streamlit-sheare/Image/sports.png", width=400)
+st.image("/mount/src/tfm-streamlit-luisen/Image/sports.png", width=400)
