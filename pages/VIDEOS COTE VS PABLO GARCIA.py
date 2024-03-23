@@ -64,14 +64,16 @@ with st.expander("VIDEOS"):
 
 
 
+
 # Insertar imagen en el panel lateral derecho
 st.sidebar.image("/mount/src/tfm-streamlit-luisen/Image/sports.png", width=400)
 
-# Título principal con "MI CONCLUSION FINAL" en blanco y "RAFAEL OBRADOR" en verde fosforito
-st.title("MI CONCLUSION FINAL - <span style='color:lime;'>RAFAEL OBRADOR</span>", unsafe_allow_html=True)
+# Título principal con texto en verde fosforito
+st.title("MI CONCLUSION FINAL - " + st.markdown("<span style='color:lime'>RAFAEL OBRADOR</span>", unsafe_allow_html=True))
 
 # Video
 st.video("https://youtu.be/q3U55bGTDmI")
+
 
 
 
