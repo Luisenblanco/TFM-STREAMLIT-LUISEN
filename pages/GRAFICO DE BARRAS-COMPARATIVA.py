@@ -69,6 +69,24 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
+ruta_excel ="/mount/src/tfm-streamlit-luisen/Data/Datos_30_LIGAS.csv"
+
+
+# Carga el archivo Excel y muestra las primeras fila
+df = pd.read_csv(ruta_excel, encoding='latin', sep=";")
+print(df.head())
+
+df = df.rename(columns={"4510": "Jugador"})
+
+df.head()
+
+# Eliminar las columnas no deseadas del DataFrame
+columnas_a_eliminar = ['4510', 'Equipo', 'Equipo durante el periodo seleccionado', 'Posicion especifica', 'Edad', 'Valor de mercado(Transfermarkt)', 'Vencimiento de contrato']
+df = df.drop(columns=columnas_a_eliminar, errors='ignore')
+
+# Obtener todas las columnas del DataFrame después de eliminar las no 
+cols_disponibles = df.columns.tolist()
+
 
 # Sidebar.expander para seleccionar jugadores
 with st.sidebar.expander("🥾⚽ Seleccionar Jugadores"):
